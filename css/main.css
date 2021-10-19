@@ -1,1 +1,81 @@
+body { margin: 0; }
 
+
+#container { display: none; }
+
+#titleScreen { position: absolute; width: 384px; height: 512px; background: #0000ff; }
+#plotScreen { display: none; position: absolute; width: 384px; height: 512px; background: #0000ff; }
+#controlsScreen { display: none; position: absolute; width: 384px; height: 512px; background: #0000ff; }
+#game { display: none; position: absolute; width: 384px; height: 512px; }
+#foreground { display: none; position: absolute; width: 384px; height: 512px; }
+#gameOver { display: none; position: absolute; width: 384px; height: 512px; background: black; }
+#creditsScreen { display: none; position: absolute; width: 384px; height: 512px; background: #0000ff; }
+
+#iconContainer {
+    margin-top: 116px;
+    width: 288px;
+    height: 216px;
+}
+
+#iconContainer #icon {
+    margin: 0 48px;
+}
+
+#textContainer {
+    width: 384px;
+    height: 64px;
+    text-align: center;
+}
+
+#textContainer #text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 21px;
+    color: white;
+}
+
+#scuffed {
+    position: absolute;
+    margin: 288px 0 0 192px ;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+.bar {
+    margin: 10px 0 0 10px;
+    width: 200px;
+    height: 30px;
+    background: black;
+}
+
+.bar .value {
+    width: 180px;
+    height: 10px;
+    transform: translate(10px, 10px);
+    transition: 0.1s;
+}
+
+.text {
+    margin: 10px 0 0 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.text .value {
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+}
+
+#gameOver #title {
+    margin: 240px 96px;
+    width: 192px;
+    height: 32px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
